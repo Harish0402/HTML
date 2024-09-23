@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+body,html {
+    height:max-content;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg {
+    background-image: url(../Images/cool-background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat:repeat-y;
+    background-size: cover;
+    opacity: 80%;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    background-color: #73C2FB;
+    opacity: 40%;
+}
+
+/*.nav {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 10px;
+}*/
+
+.nav-bg{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 50%;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+
+nav a{
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-image: linear-gradient(120deg, #a6c0fe 2%, #f68084 98%);
+
+}
+
+footer{
+
+    margin-top: auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #f68084;
+    opacity: 50%;
+}

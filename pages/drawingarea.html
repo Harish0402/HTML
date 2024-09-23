@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Area</title>
+
+    <link rel="stylesheet" href="../css/drawing.css">
+
+    <script src="../main.js" defer>
+
+    </script>
+</head>
+<body>
+    <button id="Back" onClick="goback()">Go Back</button>
+    <br>
+    <br>
+    <canvas id="mycanvas" height="400" width="500">
+        This Canvas doesn't support in my Browser 
+
+    </canvas>
+
+    <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" id="svg">
+
+            <circle id="circle" cx="50" cy="70" r="40" stroke-width="4px">
+                <animate
+                attributeName="cx"
+                begin="0s"
+                dur="8s"
+                from="50"
+                to="90%"
+                repeatCount="indefinite" />
+            </circle>
+
+            <a href="https://www.w3schools.com/mongodb/" id="icon">
+                <circle cx="350" cy="253" r="50" stroke="orange" stroke-width="4" fill="black" />
+                <image x="281" y="231" height="40" width="60" href="../Images/mongo-svgrepo-com.svg" />
+                <text x="320" y="255" fill="lightgreen">Mongo DB</text>
+            </a>
+
+    </svg>
+
+
+
+<br>
+    <select id="format">
+        <option value="" disabled selected>Select format:</option>
+        <option value="png">PNG</option>
+        <option value="jpg">JPG</option>
+    </select>
+&nbsp;
+    <a id="download" download="download">Download</a>
+
+</body>
+</html>

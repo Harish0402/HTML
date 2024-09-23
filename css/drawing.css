@@ -1,0 +1,47 @@
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: hsla(132, 79%, 68%, 1);
+
+    background: linear-gradient(90deg, hsla(132, 79%, 68%, 1) 0%, hsla(101, 62%, 48%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(132, 79%, 68%, 1) 0%, hsla(101, 62%, 48%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(132, 79%, 68%, 1) 0%, hsla(101, 62%, 48%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6EEE87", endColorstr="#5FC52E", GradientType=1 );
+}
+
+canvas{
+    border: 2px solid coral;
+    border-radius: 10px;
+}
+
+svg{
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+#circle{
+    fill: hsla(276, 56%, 67%, 1);
+
+background: linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D397FA", endColorstr="#8364E8", GradientType=1 );
+
+    
+stroke: hsla(92, 98%, 78%, 1);
+
+background: linear-gradient(90deg, hsla(92, 85%, 68%, 1) 0%, hsla(338, 98%, 49%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(92, 85%, 68%, 1) 0%, hsla(338, 98%, 49%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(92, 85%, 68%, 1) 0%, hsla(338, 98%, 49%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A8F368", endColorstr="#F9035E", GradientType=1 );
+}

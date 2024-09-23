@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <link rel="stylesheet" href="../css/project.css">
+
+    <script defer>
+        function goback() {
+            window.history.go(-1)
+        }
+   
+
+    </script>
+</head>
+<body>
+    <div class="bg">
+        <table>
+            <button id="Back" onClick="goback()">Go Back</button>
+
+            <h1>HTML Tags</h1>
+
+            <tr>
+                <th>Image Tag</th>
+                <td>
+                    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/w/o/WOPA160517_D056-resized.jpg?crop=864%2C0%2C1728%2C2304&wid=600&hei=800&scl=2.88" alt="HTML screen" height="300px" width="300px">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Video Tag</th>
+                <td>
+                    <video controls width="400px" >
+                        <source src="https://www.shutterstock.com/shutterstock/videos/1069913794/preview/stock-footage-two-criminals-planning-a-robbery-in-the-garage.webm" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                
+                </td>
+            </tr>
+
+            <tr>
+                <th>Iframe</th>
+                <td>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/46cXFUzR9XM?si=-R3CWq7qMeder7I9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
